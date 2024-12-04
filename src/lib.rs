@@ -19,6 +19,7 @@ mod lib {
 }
 
 mod conversion;
+pub use conversion::TryFromIntError;
 
 use lib::core::ops::{
     BitAnd, BitAndAssign, BitOr, BitOrAssign, BitXor, BitXorAssign, Not, Shl, ShlAssign, Shr,
